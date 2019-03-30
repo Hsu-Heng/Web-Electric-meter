@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta charset="utf-8"> 
+    <title> Test </title>
+  </head>
+    <body>
+      <form action="" method="post">
+        <label for="begin_time">開始時間</label>
+        <input id = "begin_time" type="text" name="begin_time" >
+        <span style= "display:block"></span>
+        <label for="end_time">結束時間</label>
+        <input id = "end_time" type="text" name="end_time" >
+        <span style= "display:block"></span>
+        <label for="range">range</label>
+        <input list="range">
+        <datalist id = "range" name = "range">
+            <option value="1">15分</option>
+            <option value="2">一天</option>
+            <option value="3">一個月</option>
+            <option value="4">一個月</option>
+        </datalist>
+        <span style= "display:block"></span>
+        <label for="device_id">device_id</label>
+        <input list="device_id">
+        <datalist id = "device_id" name = "device_id">
+            <option value="null"> </option>
+            <option value="kdd91201">kdd91201</option>
+            <option value="kdd91202">kdd91202</option>
+            <option value="kdd91203">kdd91203</option>
+            <option value="kdd91204">kdd91204</option>
+        </datalist>
+        <span style= "display:block"></span>
+        <input type="hidden" name="ok" value="yes">
+        <input type="submit">
+      </form>
+    </body>
+
+
+</html>
